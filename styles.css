@@ -1,0 +1,103 @@
+/*.backy{
+    background-image: url(./images/download.jpg);
+    background-repeat: no-repeat;
+    background-position-x: 70%;
+    background-size: 50%;
+}*/
+
+.backy {
+  background-image: url(./images/download\ \(3\).jpg);
+  background-repeat: no-repeat;
+  background-size: cover;         /* ← this is the key */
+  background-position: right center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+}
+
+.backy2 {
+  background-image: url(./images/suga.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .backy {
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+
+@font-face{
+    font-family: Tangerine;
+    src:url(Tangerine-Regular.ttf)
+}
+
+h1{
+    font-family: Tangerine;
+    font-size: 4cm;
+}
+
+h2 {
+  color: #000000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #000000;
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted black 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.pro{
+    text-decoration: underline;
+}
+
+.profile-img{
+    height: 200px;
+    border-radius: 50%;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  grid-template-rows: repeat(1, 1fr);
+  width: 50%;
+  margin: 100px auto 0 auto;
+  text-align: left;
+  row-gap: 2rem;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.contact-message{
+    color: red;
+}
+
+.nav-item{
+    color: red;
+}
